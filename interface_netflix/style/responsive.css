@@ -1,0 +1,22 @@
+/*ajustes/responsividade para quando a tela ficar menor de 700px*/
+
+@media screen and (max-width: 700px){
+    header .container {
+        display: flex;
+        flex-direction: column;     /*joga para baixo quando a tela for ate 700px, forma de coluna*/
+        
+    }
+    .botao {
+        margin-top: 5px;
+        width: 250px;
+    }
+    header .container nav {
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    main .filme-principal .descricao {
+        width: 60%;
+    }
+}
